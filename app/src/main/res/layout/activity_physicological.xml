@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scrollbars="vertical"
+    tools:context=".PhysicologicalActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="DEPRESSION"
+            android:background="@drawable/button_background"
+            android:layout_marginTop="90dp" />
+
+        <Button
+            android:id="@+id/infebtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/button_background"
+            android:text="ANTEXTY AND PANIC DISORDERS"/>
+
+        <Button
+            android:id="@+id/skinbtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="SCHIZOPHARNIA"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/button_background" />
+
+        <Button
+            android:id="@+id/defbtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="BIPOLAR DISORDERS"
+            android:background="@drawable/button_background"
+            android:layout_marginTop="20dp" />
+
+        <Button
+            android:id="@+id/degenbtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="NEURODEVELOPMENTAL DISORDERS"
+            android:background="@drawable/button_background"
+            android:layout_marginTop="20dp"/>
+
+
+
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scrollbars="vertical"
+    tools:context=".RegisterActivity">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/er1"
+        android:hint="Enter First Name"
+        android:textAlignment="center"
+        android:layout_marginTop="70dp"
+        android:inputType="textPersonName"
+        android:textSize="20dp"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/er2"
+        android:textAlignment="center"
+        android:hint="Enter Last Name"
+        android:inputType="textPersonName"
+        android:layout_marginTop="20dp"
+        android:textSize="20dp"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/er3"
+        android:hint="Enter Email"
+        android:textAlignment="center"
+        android:layout_marginTop="20dp"
+        android:inputType="textEmailAddress"
+        android:textSize="20dp"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/er4"
+        android:textAlignment="center"
+        android:hint="Enter Password"
+        android:inputType="textPassword"
+        android:layout_marginTop="20dp"
+        android:textSize="20dp"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/er5"
+        android:hint="Enter Confirm Password"
+        android:layout_marginTop="20dp"
+        android:textAlignment="center"
+        android:inputType="textPassword"
+        android:textSize="20dp"/>
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/rg1"
+        android:textAlignment="center"
+        android:orientation="horizontal"
+        android:layout_marginTop="15dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Gender"
+            android:textSize="20sp"/>
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/rb1"
+            android:text="Male"
+            android:textSize="20sp"
+            android:layout_marginLeft="15dp"/>
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/rb2"
+            android:text="Female"
+
+            android:textSize="20sp"
+            android:layout_marginLeft="15dp"/>
+    </RadioGroup>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/regb3"
+        android:textAlignment="center"
+        android:text="Register account"
+        android:textSize="20sp"
+        android:background="@drawable/button_background"
+
+        android:layout_marginTop="35dp"/>
+</LinearLayout>
+</ScrollView>
